@@ -1,0 +1,7 @@
+<section id="allBeers">
+    {{#each beers}}
+    <a class="card" href="/beers/{{this.id}}">
+        {{> beerPartial}}
+    </a>
+    {{/each}}
+</section>
